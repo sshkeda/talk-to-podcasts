@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "generate": "npx @edgedb/generate edgeql-js --output-dir ./src/lib/edgeql-js",
+    "prebuild": "npx @edgedb/generate edgeql-js",
     "migrate": "edgedb migration create && edgedb migrate"
   },
   "dependencies": {

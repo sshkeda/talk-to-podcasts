@@ -1,5 +1,5 @@
 import { createClient } from "edgedb";
-import e from "./edgeql-js";
+import e from "../../dbschema/edgeql-js";
 import { cookies } from "next/headers";
 
 export const client = createClient();
