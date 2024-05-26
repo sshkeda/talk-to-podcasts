@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prebuild": "npx @edgedb/generate edgeql-js",
+    "prebuild": "npx @edgedb/generate edgeql-js --target cjs",
     "migrate": "edgedb migration create && edgedb migrate"
   },
   "dependencies": {
@@ -39,6 +39,7 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
+    "@edgedb/generate": "^0.5.3",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
