@@ -45,7 +45,7 @@ export async function GET(request: NextRequest) {
 
   cookies().set("auth_token", auth_token, {
     httpOnly: true,
-    sameSite: process.env.NODE_ENV === "production" ? "strict" : "lax", // TODO: Test on production
+    sameSite: "lax",
     secure: process.env.NODE_ENV === "production",
   });
   cookies().delete("edgedb-pkce-verifier");
