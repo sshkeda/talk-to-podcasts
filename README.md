@@ -12,5 +12,5 @@ Technologies used:
 - EdgeDB
 - Deepgram
 - OpenAI
-- 
+
 Created by Stephen Shkeda
