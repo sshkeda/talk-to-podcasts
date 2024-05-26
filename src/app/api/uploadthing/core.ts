@@ -1,5 +1,5 @@
 import { auth, e, isSignedIn } from "@/lib/edgedb";
-import { openai } from "@/lib/utils";
+import { openai } from "@/lib/openai";
 import { revalidatePath } from "next/cache";
 import { createUploadthing, type FileRouter } from "uploadthing/next";
 import { UploadThingError } from "uploadthing/server";
