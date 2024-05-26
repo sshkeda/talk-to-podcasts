@@ -98,7 +98,7 @@ export default function Chat({
   };
 
   return (
-    <div className="flex h-[800px] max-h-[800px] flex-col rounded-md border">
+    <div className="flex h-[calc(50vh)] max-h-[calc(50vh)] flex-col rounded-md border">
       <div className="h-full space-y-1 overflow-y-auto p-2">
         {messages.map((message, index) => (
           <div
