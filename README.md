@@ -2,7 +2,7 @@
 
 Created by Stephen Shkeda
 
-Talk-to-Podcasts is an app that allows you to talk to podcasts (or really any .mp3 file) using AI. It was created to help people ask questions and learn more from their podcasts when they can't use their hands (such as driving a car). The project uses EdgeDB for authentication and saving users' uploaded podcast data and Deepgram for text-to-speech and speech-to-text.
+An app that enables voice conversations with podcasts (or any .mp3 file) using an AI voice assistant. I created it to help people who have pressing questions while listening to podcasts in situations where they can't use their hands. The project uses EdgeDB for authentication and saving users' uploaded podcast data.
 
 Video demo: https://www.youtube.com/watch?v=WLTuSYogmbc
 
